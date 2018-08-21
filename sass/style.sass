@@ -1,0 +1,158 @@
+$color_blue: #0086B3
+
+*
+  font-family: 微軟正黑體
+  position: relative
+  // border: solid 1px #666
+  // debug
+  // header
+  //   display: none
+  // section
+  //   display: none
+  // section#section_term
+  //   display: block   
+    
+
+body
+  height: 1000px
+  
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,,.h4,.h5,.h6
+  font-weight: bold
+h1
+  font-size: 48px
+  
+nav.navbar
+  transition: 0.5s
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top
+  background-color: transparent
+  transition: 0.5s
+  a
+    color: white
+    &:hover
+      color: $color_blue
+  
+
+header.jumbotron
+  text-align: center
+  background-image: url(https://www.sigmaartisans.com/wp-content/uploads/2016/12/SigmaArtisans-DonTaylor-Banner.jpg)
+  background-size: cover
+  background-attachment: fixed
+  background-position: 80% center
+  margin-bottom: 0px
+  border-radius: 0px
+  .container
+    color: white
+    padding: 200px 0px
+  hr
+    max-width: 50px
+    border: solid 3px 
+    color: $color_blue
+  h4
+    opacity: 0.6
+    font-weight: normal
+
+section
+  padding: 50px 0px
+  
+    
+section#section_ask
+  background-color: $color_blue
+  .col-sm-5.img
+    background-image: url(https://media.gettyimages.com/photos/engraving-depicting-a-process-in-bookbinding-decorating-the-spine-of-picture-id921898680)
+    height: 300px
+    background-size: cover
+    mix-blend-mode: multiply
+  h3
+    margin-top: 100px
+    margin-left: 20px
+    padding: 0px 20px
+    line-height: 45px
+    
+section#section_about
+  img
+    width: 110%
+    position: absolute
+    left: -10%
+    top: -8%
+  .img_wrap
+    height: 200px
+    overflow: hidden
+    cursor: pointer
+    
+  h3
+    margin-top: 25px
+    font-size: 20px
+    border-left: solid 6px
+    border-color: #ccc
+    padding-left: 10px
+  p
+    font-size: 14px
+    line-height: 22px
+    padding-left: 15px
+    // text-align: justify
+    
+section#section_category
+  background-color: #ccc
+  color: white
+  h2
+    line-height: 40px
+  .col-sm-5
+    background-image: url(https://i.pinimg.com/564x/8f/35/fb/8f35fb7b8e333ba7dba8d1bab0e825fc.jpg)
+    background-size: cover
+    height: 380px
+    mix-blend-mode: multiply
+  .col-sm-3
+    height: 150px
+    background-color: #888
+    border-radius: 25px
+    padding: 10px
+    border: solid 15px #ccc
+    cursor: pointer
+    h5
+      padding: 5px
+      text-align: center
+      line-height: 24px
+  .col-sm-12.intro
+    margin-top: 30px
+    p
+      color: #888
+      font-size: 14px
+      font-weight: 600
+      line-height: 24px
+      
+section#section_term
+  img
+    width: 100%
+  .col-sm-6.text
+    h3
+      font-size: 20px
+      border-left: solid 6px
+      border-color: $color_blue
+      padding-left: 10px
+    p
+      font-size: 14px
+      line-height: 22px
+      padding-left: 15px
+      
+footer.jumbotron
+  text-align: center
+  background-image: url(https://www.sigmaartisans.com/wp-content/uploads/2016/12/SigmaArtisans-DonTaylor-Banner.jpg)
+  background-size: cover
+  background-attachment: fixed
+  background-position: 80% 30%
+  margin-bottom: 0px
+  border-radius: 0px
+  input
+    background-color: transparent
+    max-width: 300px
+    margin-left: auto
+    margin-right: auto
+    margin-top: 25px
+  .container
+    color: white
+    padding: 50px 0px
+  hr
+    max-width: 50px
+    border: solid 3px 
+    color: $color_blue
+    
