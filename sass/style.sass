@@ -1,33 +1,26 @@
 $color_blue: #0086B3
+$color_white: #eff2f5
 
 *
-  font-family: 微軟正黑體
+  font-family: 'Roboto Slab', serif
   position: relative
-  // border: solid 1px #666
-  // debug
-  // header
-  //   display: none
-  // section
-  //   display: none
-  // section#section_term
-  //   display: block   
-    
 
 body
   height: 1000px
   
-h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,,.h4,.h5,.h6
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
   font-weight: bold
 h1
   font-size: 48px
   
 nav.navbar
   transition: 0.5s
+
 nav.navbar.navbar-default.navbar-fixed-top.navbar-top
-  background-color: transparent
+  background-color: $color_white
   transition: 0.5s
   a
-    color: white
+    color: black
     &:hover
       color: $color_blue
   
@@ -48,7 +41,8 @@ header.jumbotron
     border: solid 3px 
     color: $color_blue
   h4
-    opacity: 0.6
+    opacity: 0.8
+    font-size: 1.5em
     font-weight: normal
 
 section
@@ -89,7 +83,6 @@ section#section_about
     font-size: 14px
     line-height: 22px
     padding-left: 15px
-    // text-align: justify
     
 section#section_category
   background-color: #ccc
@@ -143,7 +136,7 @@ footer.jumbotron
   margin-bottom: 0px
   border-radius: 0px
   input
-    background-color: transparent
+    background-color: $color_white
     max-width: 300px
     margin-left: auto
     margin-right: auto

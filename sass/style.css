@@ -1,6 +1,5 @@
-@charset "UTF-8";
 * {
-  font-family: 微軟正黑體;
+  font-family: "Roboto Slab", serif;
   position: relative;
 }
 
@@ -21,11 +20,11 @@ nav.navbar {
 }
 
 nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
-  background-color: transparent;
+  background-color: #eff2f5;
   transition: 0.5s;
 }
 nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
-  color: white;
+  color: black;
 }
 nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
   color: #0086B3;
@@ -50,7 +49,8 @@ header.jumbotron hr {
   color: #0086B3;
 }
 header.jumbotron h4 {
-  opacity: 0.6;
+  opacity: 0.8;
+  font-size: 1.5em;
   font-weight: normal;
 }
 
@@ -159,7 +159,7 @@ footer.jumbotron {
   border-radius: 0px;
 }
 footer.jumbotron input {
-  background-color: transparent;
+  background-color: #eff2f5;
   max-width: 300px;
   margin-left: auto;
   margin-right: auto;
@@ -174,3 +174,5 @@ footer.jumbotron hr {
   border: solid 3px;
   color: #0086B3;
 }
+
+/*# sourceMappingURL=style.css.map */
